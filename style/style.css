@@ -58,3 +58,9 @@ body {
 .photo-container {
     display: flex;
 }
+
+/* mobile */
+
+@media(max-width: 768px) {
+    
+}
