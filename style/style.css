@@ -62,5 +62,14 @@ body {
 /* mobile */
 
 @media(max-width: 768px) {
-    
+    body {
+        max-width: 375px;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
 }
