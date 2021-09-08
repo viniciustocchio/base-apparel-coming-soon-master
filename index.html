@@ -19,7 +19,9 @@
   
 
 </head>
+
 <body>
+
   <div class="flex-container">
     <section class="background-container">
       <div class="text-container">
@@ -29,6 +31,7 @@
             We're <span>coming soon</span>
           </p>
         </div>
+
         <div class="main-text">
           <p>
             Hello fellow shoppers! We're currently building our new fashion store.
@@ -37,24 +40,23 @@
         </div>
 
         <form class="contact-field" action="">
-				  <input type="email" name="input-email" placeholder="Email Address" id="input-email" data-input required></input>
+          <input type="email" name="input-email" placeholder="Email Address" id="input-email" data-input required></input>
           <img src="./images/icon-error.svg" class="error">
           <button class="button" data-button>
-            <img src="images/icon-arrow.svg"  alt="">
+          <img src="images/icon-arrow.svg"  alt="">
           </button>
-				</form>
-        
+        </form>
+  
       </div>
     </section>
 
-    <picture>
-      <source media="(max-width: 900px)" srcset="images/hero-mobile.jpg">
-      <source media="(min-width: 910px)" srcset="images/hero-desktop.jpg">
+    <picture class="photo-container">
+      <source media="(max-width: 1200px)" srcset="images/hero-mobile.jpg">
       <img src="images/hero-desktop.jpg" alt="model photo">
     </picture>
-    
   </div>
   
   <script src="./js/script.js"></script>
+ 
 </body>
 </html>

@@ -1,10 +1,8 @@
-body {
-    max-width: 1440px;
-    margin: 0 auto;
-}
-
 .flex-container {
+    max-width: 1440px;
+    margin: auto;
     display: flex;
+    justify-content: center;
 }
 
 .background-container {
@@ -57,7 +55,7 @@ body {
 }
 
 .photo-container {
-    display: flex;
+    width: 100%;
 }
 
 .contact-field {
@@ -126,14 +124,13 @@ form span {
 
 /* mobile */
 
-@media(max-width: 900px) {
+@media(max-width: 1080px) {
 
     .flex-container {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        max-width: 375px;
-        margin: 0 auto;
+        margin: auto;
     }
 
 }
