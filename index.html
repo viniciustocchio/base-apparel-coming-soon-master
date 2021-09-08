@@ -42,9 +42,12 @@
       </div>
     </section>
 
-    <section class="photo-container">
-      <img srcset="images/hero-mobile.jpg 375w, images/hero-desktop.jpg 610w" sizes="(max-width: 375px) 760px, (max-width: 610px) 1430px">
-    </section>
+    <picture>
+      <source media="(max-width: 900px)" srcset="images/hero-mobile.jpg">
+      <source media="(min-width: 910px)" srcset="images/hero-desktop.jpg">
+      <img src="images/hero-desktop.jpg" alt="model photo">
+    </picture>
+    
   </div>
   
 </body>

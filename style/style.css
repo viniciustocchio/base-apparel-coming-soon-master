@@ -12,7 +12,7 @@ body {
 }
 
 .text-container {
-    margin: 8% 20%;
+    margin: 60px 150px;
 }
 
 .logo {
@@ -23,7 +23,7 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    max-width: 200px;
+    max-width: 400px;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 4em;
     text-transform: uppercase;
@@ -32,6 +32,7 @@ body {
     color: hsl(0, 36%, 70%);
     line-height: 1em;
     margin-bottom: 50px;
+
 }
 
 .title p span {
@@ -44,7 +45,7 @@ body {
 .main-text {
     display: flex;
     flex-flow: column wrap;
-    max-width: 90%;
+    max-width: 450px;
     
 }
 
@@ -61,15 +62,14 @@ body {
 
 /* mobile */
 
-@media(max-width: 768px) {
-    body {
-        max-width: 375px;
-    }
+@media(max-width: 900px) {
 
     .flex-container {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        max-width: 375px;
+        margin: 0 auto;
     }
 
 }
