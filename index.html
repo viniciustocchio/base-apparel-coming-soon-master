@@ -9,11 +9,14 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Base Apparel coming soon page</title>
 
   <link rel="stylesheet" href="style/reset.css">
   <link rel="stylesheet" href="style/style.css">
+  
 
 </head>
 <body>
@@ -33,10 +36,12 @@
           </p>
         </div>
 
-        <form class="contact-field" action="#">
-				  <input type="email" id="email" class="standard-input" required placeholder="Email Address">
-
-          <input type="submit" value="send" class="send">
+        <form class="contact-field" action="">
+				  <input type="email" name="input-email" placeholder="Email Address" id="input-email" data-input required></input>
+          <img src="./images/icon-error.svg" class="error">
+          <button class="button" data-button>
+            <img src="images/icon-arrow.svg"  alt="">
+          </button>
 				</form>
         
       </div>
@@ -50,5 +55,6 @@
     
   </div>
   
+  <script src="./js/script.js"></script>
 </body>
 </html>
