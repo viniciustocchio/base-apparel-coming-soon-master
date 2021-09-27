@@ -1,4 +1,4 @@
 .flex-container {
     display: grid;
-    grid-template-columns: 45% auto;
+    grid-template-columns: 55% auto;
 }

@@ -12,13 +12,6 @@
     margin: 0 auto;
 }
 
-
-/* .flex-container {
-    margin: auto;
-    display: flex;
-    justify-content: center;
-}
-
 .photo-container {
     display: flex;
 }
@@ -77,36 +70,8 @@
     line-height: 1.4em;
 }
 
-@media(max-width: 768px) {
+@media screen and (min-width: 768px) {
 
-    .flex-container {
-        flex-direction: column;
-        flex-wrap: wrap;
-        margin: auto;
-        max-width: 375px;
-    }
 
-    .background-container {
-        width: 100%;
-    }
-
-    .text-container {
-        margin: 8% 10%;
-        width: 100%;
-    }
-
-    .title {
-        display: flex;
-        font-size: 3em;
-    }
-
-    .photo-container {
-        order: 2;
-    }
-
-    .logo {
-        order: 1;
-    }
 
 } 
-*/
