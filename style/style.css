@@ -1,4 +1,19 @@
+.app {
+    display: grid;
+    font-family: 'Josefin Sans', sans-serif; 
+    grid-template-areas: "flex-container";
+    grid-template-columns: auto;
+}
+
 .flex-container {
+    grid-area: flex-container;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
+/* .flex-container {
     margin: auto;
     display: flex;
     justify-content: center;
@@ -62,8 +77,6 @@
     line-height: 1.4em;
 }
 
-/* mobile */
-
 @media(max-width: 768px) {
 
     .flex-container {
@@ -95,4 +108,5 @@
         order: 1;
     }
 
-}
+} 
+*/
