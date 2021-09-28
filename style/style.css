@@ -70,8 +70,18 @@
     line-height: 1.4em;
 }
 
-@media screen and (min-width: 768px) {
-
+@media screen and (max-width: 768px) {
+    .flex-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+            "logo"
+            "photo-container"
+            "title"
+            "main-text"
+            "contact-field";
+    }
 
 
 } 
