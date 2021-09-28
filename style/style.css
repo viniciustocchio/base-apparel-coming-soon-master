@@ -72,15 +72,7 @@
 
 @media screen and (max-width: 768px) {
     .flex-container{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-        grid-template-areas: 
-            "logo"
-            "photo-container"
-            "title"
-            "main-text"
-            "contact-field";
+        flex-direction: column-reverse;
     }
 
 
