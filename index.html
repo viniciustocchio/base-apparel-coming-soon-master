@@ -16,43 +16,33 @@
 
   <link rel="stylesheet" href="style/reset.css">
   <link rel="stylesheet" href="style/style.css">
-  <link rel="stylesheet" href="./style/grid.css">
-  
 
 </head>
 
 <body class="app">
+  <header>
+    <img class="logo" src="./images/logo.svg" alt="brand logo">
+  </header>
 
-    <div class="flex-container">
-      <section class="background-container">
-        <div class="text-container">
-          <img class="logo" src="images/logo.svg" alt="logo">
-          <div class="title">
-            <p>
-              We're <span>coming soon</span>
-            </p>
-          </div>
-          <div class="main-text">
-            <p>
-              Hello fellow shoppers! We're currently building our new fashion store.
-              Add your email below to stay up-to-date with announcements and our launch deals.
-            </p>
-          </div>
-          <form class="contact-field" action="">
-            <input type="email" name="input-email" placeholder="Email Address" id="input-email" data-input required></input>
-            <img src="./images/icon-error.svg" class="error">
-            <button class="button" data-button>
-            <img src="images/icon-arrow.svg"  alt="">
-            </button>
-          </form>
-    
-        </div>
-      </section>
+  <div class="flex-container">
+    <div class="left-container">
+      <h1>We're<br><span>coming<br>soon</span></h1>
+      <p>Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
+      <form action="#">
+        <input type="email" placeholder="Email Address">
+        <button type="submit"><img src="./images/icon-arrow.svg" alt="submit arrow"></button>
+      </form>
+
+    </div>
+
+    <div class="right-container">
       <picture class="photo-container">
         <source media="(max-width: 768px)" srcset="images/hero-mobile.jpg">
         <img src="images/hero-desktop.jpg" alt="model photo">
       </picture>
     </div>
-  
+
+  </div>  
+  <script src="./js/main.js"></script>
 </body>
 </html>
