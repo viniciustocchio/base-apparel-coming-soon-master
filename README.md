@@ -4,8 +4,8 @@
 
 ## Welcome! 👋
 
-This is a challange from the site Frontend Mentor, and the proposal is to compose a card following the layout defined in the challenge.
+This is a challange from the site Frontend Mentor, and the proposal is improve the skills in a real-life workflow.
 
-In this exercise, I could practice a little bit more HTML, CSS, flexbox, JS and it was good training to creating responsive layouts (desktop and mobile).
+In this exercise I could practice a little bit more HTML, CSS, flexbox, responsive layouts and it was good training for JavaScript.
 
 ![Design preview for the Order summary card coding challenge](./images/design-preview.png)
